@@ -1,4 +1,4 @@
-##  This Project is built using npm packages like.\
+##  This Project is built using npm packages like
   axios to make API call.\
   react-bootstrap.\
   fontawesome.\
