@@ -1,0 +1,88 @@
+.pos {
+  margin-top: 3rem;
+}
+
+.pos2 {
+  margin-top: 18rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .pos2 {
+    margin-top: 16rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .pos2 {
+    margin-top: 14rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .pos2 {
+    margin-top: 10rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .pos2 {
+    margin-top: 7rem;
+  }
+}
+
+.userInfo {
+  text-align: initial;
+}
+
+.cardIcons {
+  opacity: 0.4 !important;
+  margin-right: 0.6rem !important;
+}
+
+.footerIcons {
+  border-right: 2px solid #c7c7d1;
+}
+
+.like {
+  cursor: pointer;
+  color: #d9534f;
+}
+
+.noLike {
+  cursor: pointer;
+  color: #6c757d;
+}
+
+.noLike:hover {
+  color: #d9534f;
+}
+
+.edit {
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: #2dbecd !important;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.delete:hover {
+  color: #007bff !important;
+}
+
+.Btn {
+  margin-top: 15%;
+}
+
+.loader {
+  margin-top: 20%;
+}
+
+.moreInfo {
+  padding: 0 !important;
+  float: right;
+  color: #2dbecd;
+}
