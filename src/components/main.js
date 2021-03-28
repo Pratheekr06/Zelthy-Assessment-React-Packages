@@ -22,6 +22,9 @@ class Main extends Component {
                 userInfo: res.data,
             })
         })
+        .catch(err => {
+            console.log(err);
+        })
         this.userAvatars();
         setTimeout(() => {
             this.setState({
